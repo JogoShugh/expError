@@ -1,6 +1,7 @@
 # expError
 
-Test in DHC by doing a GET for /test1 and /test2
+* Run with `npm install` then `npm start`
+* Test in DHC by doing a GET for /test1 and /test2
 
 ## /test1
 

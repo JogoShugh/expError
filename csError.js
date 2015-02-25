@@ -4,8 +4,8 @@
   var UNEXPECTED_ERROR_MSG = 'There was an unexpected error when processing your request!';
 
   function CSError(errors, status) {
-    this.status = status || 400;
     this.errors = { errors: errors };
+    this.status = status;
   }
 
   var csError = function(errors, status) {
